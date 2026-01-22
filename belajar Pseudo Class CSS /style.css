@@ -1,0 +1,41 @@
+.hello {
+    color: orange;
+}
+
+.hello:hover {
+    color: black;
+    font-family: arial;
+    font-size: 40px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+li:first-child a {
+    color: aquamarine;
+}
+
+li:last-child a {
+    color: brown;
+}
+
+li:nth-child(odd) a {
+    color: chartreuse;
+}
+
+li:nth-child(odd) a:hover {
+    color: firebrick;
+}
+
+p:first-of-type {
+    color: blue;
+}
+
+P:last-of-type {
+    color: brown;
+}
